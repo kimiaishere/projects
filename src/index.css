@@ -7,13 +7,22 @@ html {
   scroll-behavior: smooth;
 }
 
+
+@font-face {
+  font-family: "AzarMehr";
+  src: url('/src/assets/font/AzarMehr-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: "َAzarMehr", Inter, sans-serif;
   margin: 0;
   min-height: 100vh;
-  font-family:
-    Inter,
-    system-ui,
-    sans-serif;
+}
+
+@theme {
+  --font-AzarMehr: "AzarMehr";
 }
 
 #root {
